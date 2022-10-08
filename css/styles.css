@@ -1,0 +1,83 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+ul {
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+	color: rgba(33, 33, 33, 1);
+}
+a:hover {
+	color: rgb(33, 150, 243);
+}
+
+button:hover {
+	color: rgb(255, 255, 255);
+}
+
+address {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 0.03em;
+	color: #ffffff;
+	background-color: #757575;
+	/* background-color dodany, żeby widzieć mail i telefon, dopóki nie ma pod nimi belki ;) */
+}
+
+.WEBfont {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 31px;
+	color: rgba(33, 150, 243, 1);
+}
+.Studio {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 31px;
+	color: rgba(0, 0, 0, 1);
+}
+.TopLink {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+}
+.TopMail {
+	font-weight: 500;
+	font-size: 14px;
+	color: #757575;
+}
+
+.BottomMail {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 0.03em;
+	text-decoration-line: underline;
+	color: rgba(255, 255, 255, 0.6);
+}
+
+h3 {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 36px;
+	letter-spacing: 0.06em;
+	color: #212121;
+}
+.OpisPortfolio {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 30px;
+	letter-spacing: 0.03em;
+	color: #757575;
+}
