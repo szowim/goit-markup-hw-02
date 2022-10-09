@@ -36,13 +36,23 @@ address {
 	line-height: 31px;
 	color: rgba(33, 150, 243, 1);
 }
-.Studio {
+.StudioTop {
 	font-family: 'Raleway';
 	font-style: normal;
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 31px;
 	color: rgba(0, 0, 0, 1);
+}
+.StudioBottom {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 31px;
+	color: rgb(255, 255, 255);
+	background-color: #757575;
+	/* background-color dodany, żeby widzieć napis Studio, dopóki nie ma pod nimi belki ;) */
 }
 .TopLink {
 	font-style: normal;
@@ -55,6 +65,24 @@ address {
 	font-size: 14px;
 	color: #757575;
 }
+.belka {
+	ont-weight: 900;
+	font-size: 44px;
+	line-height: 60px;
+	text-align: center;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+}
+.buttonIndex {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 30px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.06em;
+	color: #ffffff;
+}
 
 .BottomMail {
 	font-family: 'Roboto';
@@ -66,18 +94,56 @@ address {
 	text-decoration-line: underline;
 	color: rgba(255, 255, 255, 0.6);
 }
+.opis h3 {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 16px;
+	color: #212121;
+}
+.opis p {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: #757575;
+}
 
-h3 {
+.portfolio h3 {
 	font-weight: 700;
 	font-size: 18px;
 	line-height: 36px;
 	letter-spacing: 0.06em;
 	color: #212121;
 }
-.OpisPortfolio {
+.Portfolio p {
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 30px;
 	letter-spacing: 0.03em;
+	color: #757575;
+}
+.czymsiezajmujemy h2 {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 42px;
+	text-align: center;
+	color: #212121;
+}
+.naszzespol h2 {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 42px;
+	text-align: center;
+	color: #212121;
+}
+.naszzespol h3 {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	color: #212121;
+}
+.naszzespol p {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
 	color: #757575;
 }
