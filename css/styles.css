@@ -17,7 +17,6 @@ button:hover {
 }
 
 address {
-	font-weight: 400;
 	font-size: 14px;
 	line-height: 24px;
 	color: #ffffff;
@@ -52,7 +51,6 @@ address {
 	/* background-color dodany, żeby widzieć napis Studio, dopóki nie ma pod nimi belki ;) */
 }
 .top-link {
-	font-style: normal;
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 16px;
@@ -82,9 +80,6 @@ address {
 }
 
 .bottom-mail {
-	font-family: 'Roboto';
-	font-style: normal;
-	font-weight: 400;
 	font-size: 14px;
 	line-height: 24px;
 	letter-spacing: 0.03em;
@@ -98,7 +93,6 @@ address {
 	color: #212121;
 }
 .opis p {
-	font-weight: 400;
 	font-size: 14px;
 	line-height: 24px;
 	color: #757575;
@@ -112,7 +106,6 @@ address {
 	color: #212121;
 }
 .portfolio p {
-	font-weight: 400;
 	font-size: 16px;
 	line-height: 30px;
 	letter-spacing: 0.03em;
@@ -139,7 +132,6 @@ address {
 	color: #212121;
 }
 .nasz-zespol p {
-	font-weight: 400;
 	font-size: 16px;
 	line-height: 19px;
 	color: #757575;
