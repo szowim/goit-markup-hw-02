@@ -17,18 +17,15 @@ button:hover {
 }
 
 address {
-	font-family: 'Roboto';
-	font-style: normal;
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 24px;
-	letter-spacing: 0.03em;
 	color: #ffffff;
 	background-color: #757575;
 	/* background-color dodany, żeby widzieć mail i telefon, dopóki nie ma pod nimi belki ;) */
 }
 
-.WEBfont {
+.web-font {
 	font-family: 'Raleway';
 	font-style: normal;
 	font-weight: 700;
@@ -36,7 +33,7 @@ address {
 	line-height: 31px;
 	color: rgba(33, 150, 243, 1);
 }
-.StudioTop {
+.studio-top {
 	font-family: 'Raleway';
 	font-style: normal;
 	font-weight: 700;
@@ -44,7 +41,7 @@ address {
 	line-height: 31px;
 	color: rgba(0, 0, 0, 1);
 }
-.StudioBottom {
+.studio-bottom {
 	font-family: 'Raleway';
 	font-style: normal;
 	font-weight: 700;
@@ -54,26 +51,26 @@ address {
 	background-color: #757575;
 	/* background-color dodany, żeby widzieć napis Studio, dopóki nie ma pod nimi belki ;) */
 }
-.TopLink {
+.top-link {
 	font-style: normal;
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 16px;
 }
-.TopMail {
+.top-mail {
 	font-weight: 500;
 	font-size: 14px;
 	color: #757575;
 }
 .belka {
-	ont-weight: 900;
+	font-weight: 900;
 	font-size: 44px;
 	line-height: 60px;
 	text-align: center;
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
 }
-.buttonIndex {
+.button-index {
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 30px;
@@ -84,7 +81,7 @@ address {
 	color: #ffffff;
 }
 
-.BottomMail {
+.bottom-mail {
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 400;
@@ -114,34 +111,34 @@ address {
 	letter-spacing: 0.06em;
 	color: #212121;
 }
-.Portfolio p {
+.portfolio p {
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 30px;
 	letter-spacing: 0.03em;
 	color: #757575;
 }
-.czymsiezajmujemy h2 {
+.czym-sie-zajmujemy h2 {
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 42px;
 	text-align: center;
 	color: #212121;
 }
-.naszzespol h2 {
+.nasz-zespol h2 {
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 42px;
 	text-align: center;
 	color: #212121;
 }
-.naszzespol h3 {
+.nasz-zespol h3 {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 19px;
 	color: #212121;
 }
-.naszzespol p {
+.nasz-zespol p {
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 19px;
