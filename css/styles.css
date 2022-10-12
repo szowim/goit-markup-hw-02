@@ -7,6 +7,7 @@ body {
 	--logo-color: #2196f3;
 }
 .link {
+	list-style-type: none; 
 	text-decoration: none;
 	font-style: normal;
 	color: rgba(33, 33, 33, 1);
@@ -53,11 +54,12 @@ body {
 	/* background-color dodany, żeby widzieć napis Studio, dopóki nie ma pod nimi belki ;) */
 }
 .top-link {
+	list-style-type: none; 
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.71;
 }
-.top-mail {
+.top-mail { 
 	font-weight: 500;
 	font-size: 14px;
 	color: #757575;
@@ -92,7 +94,6 @@ body {
 	background-color: #2196f3;
 	border: none;
 }
-
 .button-index {
 	font-weight: 700;
 	font-size: 16px;
@@ -158,3 +159,8 @@ body {
 	line-height: 1.19;
 	color: var(--brand-color);
 }
+.button_list {list-style-type: none; }
+.opis {list-style-type: none; }
+.image-list {list-style-type: none; }
+.person-list {list-style-type: none; }
+.portfolio-list {list-style-type: none; }
