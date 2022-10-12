@@ -4,8 +4,7 @@ body {
 }
 :root {
 	--brand-color: #757575;
-	--logo-color: #2196F3;
-
+	--logo-color: #2196f3;
 }
 .link {
 	text-decoration: none;
@@ -13,7 +12,7 @@ body {
 	color: rgba(33, 33, 33, 1);
 }
 .link:hover {
-	color:rgba(33, 150, 243, 1)
+	color: rgba(33, 150, 243, 1);
 }
 .adress {
 	text-decoration: none;
@@ -63,10 +62,21 @@ body {
 	font-size: 14px;
 	color: #757575;
 }
+.top-mail:hover {
+	color: rgba(33, 150, 243, 1);
+}
+.footer-mail {
+	font-weight: 400;
+	font-size: 14px;
+	color: #ffffff;
+}
+.footer-mail:hover {
+	color: rgba(33, 150, 243, 1);
+}
 .bottom-mail {
-		font-weight: 500;
-		font-size: 14px;
-		color: rgba(33, 33, 33, 1);
+	font-weight: 500;
+	font-size: 14px;
+	color: #757575;
 }
 .belka {
 	font-weight: 900;
@@ -75,26 +85,29 @@ body {
 	text-align: center;
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
-	color: #FFFFFF;
-	;
+	color: #ffffff;
 }
+.botton-portfolio:hover {
+	color: #ffffff;
+	background-color: #2196f3;
+	border: none;
+}
+
 .button-index {
 	font-weight: 700;
 	font-size: 16px;
-	line-height: 1.88;
-	display: flex;
-	align-items: center;
-	text-align: center;
-	letter-spacing: 0.06em;
+	line-height: 1, 87;
 	color: #ffffff;
+	background-color: #2196f3;
+	border: none;
 }
 .button-portfolio {
+	border: none;
 	font-weight: 500;
 	font-size: 16px;
-	line-height: 1.63;
-	text-align: center;
-	letter-spacing: 0.03em;
-	color: #ffffff;
+	line-height: 1.62;
+	color: #212121;
+	background-color: #f5f4fa;
 }
 .bottom-mail {
 	font-size: 14px;
@@ -124,12 +137,12 @@ body {
 	letter-spacing: 0.03em;
 	color: var(--brand-color);
 }
-.czym-sie-zajmujemy{
+.czym-sie-zajmujemy {
 	font-size: 36px;
 	line-height: 1.17;
 	text-align: center;
 }
-.nasz-zespol{
+.nasz-zespol {
 	font-size: 36px;
 	line-height: 1.17;
 	text-align: center;
