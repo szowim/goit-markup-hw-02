@@ -3,7 +3,9 @@ body {
 	color: #212121;
 }
 :root {
-	--brand-color: #2F303A
+	--brand-color: #757575;
+	--logo-color: #2196F3;
+
 }
 .link {
 	text-decoration: none;
@@ -31,7 +33,7 @@ body {
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 1.19;
-	color: rgba(33, 150, 243, 1);
+	color: var(--logo-color);
 }
 .studio-top {
 	font-family: 'Raleway';
@@ -109,7 +111,7 @@ body {
 .opis_p {
 	font-size: 14px;
 	line-height: 1.71;
-	color: #757575;
+	color: var(--brand-color);
 }
 .portfolio_h3 {
 	font-size: 18px;
@@ -120,7 +122,7 @@ body {
 	font-size: 16px;
 	line-height: 1.88;
 	letter-spacing: 0.03em;
-	color: #757575;
+	color: var(--brand-color);
 }
 .czym-sie-zajmujemy{
 	font-size: 36px;
@@ -139,5 +141,5 @@ body {
 .nasz-zespol_p {
 	font-size: 16px;
 	line-height: 1.19;
-	color: #757575;
+	color: var(--brand-color);
 }
