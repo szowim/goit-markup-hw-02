@@ -1,22 +1,30 @@
 body {
 	font-family: 'Roboto', sans-serif;
-	color; rgba(33, 33, 33, 1);
+	color: #212121;
+}
+:root {
+	--brand-color: #2F303A
 }
 .link {
+	text-decoration: none;
+	font-style: normal;
 	color: rgba(33, 33, 33, 1);
 }
 .link:hover {
 	color:rgba(33, 150, 243, 1)
-	
 }
-.address {
+.adress {
+	text-decoration: none;
+	font-style: normal;
 	font-size: 14px;
 	line-height: 1.71;
 	color: #ffffff;
 	background-color: #757575;
 	/* background-color dodany, żeby widzieć mail i telefon, dopóki nie ma pod nimi belki ;) */
 }
-
+.logo {
+	text-decoration: none;
+}
 .web-font {
 	font-family: 'Raleway';
 	font-style: normal;
@@ -43,9 +51,6 @@ body {
 	background-color: #757575;
 	/* background-color dodany, żeby widzieć napis Studio, dopóki nie ma pod nimi belki ;) */
 }
-.link_footer {
-	color: rgba(255, 255, 255, 0.6);
-}
 .top-link {
 	font-weight: 500;
 	font-size: 14px;
@@ -56,6 +61,11 @@ body {
 	font-size: 14px;
 	color: #757575;
 }
+.bottom-mail {
+		font-weight: 500;
+		font-size: 14px;
+		color: rgba(33, 33, 33, 1);
+}
 .belka {
 	font-weight: 900;
 	font-size: 44px;
@@ -63,9 +73,10 @@ body {
 	text-align: center;
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
+	color: #FFFFFF;
+	;
 }
 .button-index {
-	hover:
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.88;
@@ -90,41 +101,42 @@ body {
 	text-decoration-line: underline;
 	color: rgba(255, 255, 255, 0.6);
 }
-.opis h3 {
+
+.opis_h3 {
 	font-size: 14px;
 	line-height: 1.14;
 }
-.opis p {
+.opis_p {
 	font-size: 14px;
 	line-height: 1.71;
 	color: #757575;
 }
-.portfolio h3 {
+.portfolio_h3 {
 	font-size: 18px;
 	line-height: 2;
 	letter-spacing: 0.06em;
 }
-.portfolio p {
+.portfolio_p {
 	font-size: 16px;
 	line-height: 1.88;
 	letter-spacing: 0.03em;
 	color: #757575;
 }
-.czym-sie-zajmujemy h2 {
+.czym-sie-zajmujemy{
 	font-size: 36px;
 	line-height: 1.17;
 	text-align: center;
 }
-.nasz-zespol h2 {
+.nasz-zespol{
 	font-size: 36px;
 	line-height: 1.17;
 	text-align: center;
 }
-.nasz-zespol h3 {
+.nasz-zespol_h3 {
 	font-size: 16px;
 	line-height: 1.19;
 }
-.nasz-zespol p {
+.nasz-zespol_p {
 	font-size: 16px;
 	line-height: 1.19;
 	color: #757575;
